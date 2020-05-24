@@ -6,7 +6,7 @@
 body 
 {
 font-family: 'Lobster', cursive;
-font-size: 2em;
+font-size: 1.6em;
 color:#604045;
 background-color: #efe5dc;
 }
@@ -195,7 +195,7 @@ background-color: #efe5dc;
 
     padding: 20px;
 
-    font-size: 30px;
+    font-size: 35px;
     justify-content: center;
 }
 
@@ -255,8 +255,8 @@ background-color: #efe5dc;
 
 .cakes__image
 {
-    width: 23%;
-    height: auto;
+    max-width: 23%;
+    max-height: auto;
 
     margin: 5px;
 
@@ -291,7 +291,7 @@ background-color: #efe5dc;
 {
     display: flex;
     flex-direction: row;
-    font-size: 0.5em;
+    font-size: 0.8em;
 
 }
 
@@ -314,6 +314,13 @@ background-color: #efe5dc;
     width: 75%;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1120px) {
+    .header :last-child {
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap; 
+        justify-content: center;
+     }
 
+    
 }
