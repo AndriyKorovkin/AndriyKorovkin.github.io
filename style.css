@@ -104,7 +104,8 @@ background-color: #efe5dc;
     font-size: 3em;
 
     margin: 0;
-    padding: 0;
+    margin-left: 10px;
+    padding-left: 40px;
 }
 
 .header__main-heading
@@ -254,8 +255,60 @@ background-color: #efe5dc;
 .cakes__image
 {
     width: 23%;
+    height: auto;
 
     margin: 5px;
 
     border-radius: 10px;
+}
+
+.menu__price
+{
+    display: flex;
+   flex-direction: row;
+   flex: 1 1 50%;
+   justify-content: center;
+
+   margin-bottom: 60px;
+}
+
+.menu__price-main
+{
+    max-width: 50%;
+
+    color: #efe5dc;
+    background-color: #604045;
+ 
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 0 20px 20px;
+
+ 
+}
+
+.menu__price-description
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5em;
+
+}
+
+.menu__price-value
+{
+    width: 100px;
+    text-align: end;
+}
+
+.title__price-description
+{
+    margin-bottom: 10px;
+    font-size: 1em;
+
+}
+
+.value__price-description
+{
+    margin-right: 10px;
+    width: 75%;
 }
