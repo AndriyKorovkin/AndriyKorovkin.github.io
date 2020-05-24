@@ -1,0 +1,261 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+font-family: 'Lobster', cursive;
+font-size: 2em;
+color:#604045;
+background-color: #efe5dc;
+}
+
+.main
+{
+    width: 1100px;
+
+    margin: auto;
+}
+
+.header__main
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid #604045;
+
+}
+
+.header__logo-img
+{
+    width: 10vw;
+    height: auto;
+    min-width: 120px;
+}
+
+.phone__img
+{
+    width: 23px;
+    height: 23px;
+
+    margin-right: 20px;
+}
+
+.header__contacts-contacts
+{
+    margin-bottom: 20px;
+}
+
+.header__contacts-sity
+{
+    margin-top: 20px;
+}
+
+.header__contacts,
+.contacts__forms,
+.header__phone
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: start;
+    text-align: center;
+
+}
+
+.contacts__forms
+{
+    width: 250px;
+
+}
+.contacts
+{
+    display: flex;
+    flex-direction: column;
+
+    
+    justify-content: center;
+    text-align: start;
+}
+
+.logo__img
+{
+    width: 23px;
+    height: 23px;
+}
+
+
+.header__name
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.header__main-name
+{
+    font-size: 3em;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header__main-heading
+{
+    font-size: 2em;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav__list
+{
+    position: relative;
+
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav__item
+{
+    display: flex;
+    align-items: stretch;
+}
+
+.nav__button
+{
+    text-decoration: none;
+    color: #604045;
+    padding: 20px;
+}
+
+.nav
+{
+    border-bottom: 2px solid #604045;
+
+}
+
+.aboutUs
+{
+    margin-top: 20px;
+    padding: 10px;
+
+    border: 3px solid #604045;
+    border-radius: 20px;
+
+}
+
+
+.menu
+{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: start;
+    
+}
+
+.menu__body
+{
+    width: 70%;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px 0 10px;
+    color: #efe5dc;
+    background-color: #604045;
+
+    border-radius: 20px;
+}
+
+.menu__description
+{
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+
+    font-size: 30px;
+    justify-content: center;
+}
+
+
+.menu__img
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.menu__img-piece
+{
+    width: 100%;
+    height: auto;
+
+    border-radius: 20px;
+
+}
+
+.cakes,
+.cakes__header
+{
+    font-size: 2em;
+
+    margin: 40px 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.cakes__main
+{
+    position: relative;
+}
+
+.cakes
+{   
+    margin: 40px 0;
+    font-size: 1.5em;
+}
+
+.cakes__images
+{
+   display: flex;
+   flex-direction: row;
+
+   flex: 1 1 25%;
+   flex-wrap: wrap;
+
+   justify-content: center;
+   text-align: center;
+}
+
+.cakes__image
+{
+    width: 23%;
+
+    margin: 5px;
+
+    border-radius: 10px;
+}
