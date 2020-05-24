@@ -13,7 +13,7 @@ background-color: #efe5dc;
 
 .main
 {
-    width: 1100px;
+    max-width: 1400px;
 
     margin: auto;
 }
@@ -23,7 +23,7 @@ background-color: #efe5dc;
     display: flex;
     flex-direction: row;
 
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 
     border-bottom: 2px solid #604045;
@@ -32,15 +32,15 @@ background-color: #efe5dc;
 
 .header__logo-img
 {
-    width: 10vw;
+    max-width: 110px;
     height: auto;
-    min-width: 120px;
+    min-width: 60px;
 }
 
 .phone__img
 {
-    width: 23px;
-    height: 23px;
+    max-width: 23px;
+    max-height: 23px;
 
     margin-right: 20px;
 }
@@ -69,7 +69,7 @@ background-color: #efe5dc;
 
 .contacts__forms
 {
-    width: 250px;
+    max-width: 250px;
 
 }
 .contacts
@@ -77,6 +77,9 @@ background-color: #efe5dc;
     display: flex;
     flex-direction: column;
 
+    margin-right: 20px;
+
+    font-size: 0.5em;
     
     justify-content: center;
     text-align: start;
@@ -84,8 +87,8 @@ background-color: #efe5dc;
 
 .logo__img
 {
-    width: 23px;
-    height: 23px;
+    max-width: 23px;
+    max-height: 23px;
 }
 
 
@@ -104,8 +107,6 @@ background-color: #efe5dc;
     font-size: 3em;
 
     margin: 0;
-    margin-left: 10px;
-    padding-left: 40px;
 }
 
 .header__main-heading
@@ -201,8 +202,8 @@ background-color: #efe5dc;
 
 .menu__img
 {
-    width: 70%;
-    height: auto;
+    max-width: 50%;
+    max-height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -211,8 +212,8 @@ background-color: #efe5dc;
 
 .menu__img-piece
 {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 
     border-radius: 20px;
 
@@ -311,4 +312,8 @@ background-color: #efe5dc;
 {
     margin-right: 10px;
     width: 75%;
+}
+
+@media (min-width: 1200px) {
+
 }
