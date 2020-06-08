@@ -9,6 +9,7 @@ font-family: 'Lobster', cursive;
 font-size: 1.6em;
 color:#604045;
 background-color: #efe5dc;
+margin: 0;
 }
 
 .main
@@ -32,7 +33,7 @@ background-color: #efe5dc;
 
 .header__logo-img
 {
-    max-width: 110px;
+    max-width: 140px;
     height: auto;
     min-width: 60px;
 }
@@ -45,17 +46,24 @@ background-color: #efe5dc;
     margin-right: 20px;
 }
 
+
 .header__contacts-contacts
 {
     margin-bottom: 20px;
 }
 
-.header__contacts-sity
+.header__contacts
 {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+    width: 50%;
+
+    justify-content: flex-end;
+    text-align: center;
+
 }
 
-.header__contacts,
 .contacts__forms,
 .header__phone
 {
@@ -64,6 +72,7 @@ background-color: #efe5dc;
 
     justify-content: start;
     text-align: center;
+    margin-bottom: 10px;
 
 }
 
@@ -76,10 +85,10 @@ background-color: #efe5dc;
 {
     display: flex;
     flex-direction: column;
-
+    width: 50%;
     margin-right: 20px;
 
-    font-size: 0.5em;
+    font-size: 1em;
     
     justify-content: center;
     text-align: start;
@@ -117,6 +126,11 @@ background-color: #efe5dc;
     padding: 0;
 }
 
+.header__contacts-form
+{
+    text-decoration: none;
+    color: #604045;
+}
 
 .nav__list
 {
@@ -178,7 +192,7 @@ background-color: #efe5dc;
 
 .menu__body
 {
-    width: 70%;
+    width: 20%;
     margin-top: 20px;
     margin-right: 20px;
     padding: 10px 0 10px;
@@ -190,7 +204,7 @@ background-color: #efe5dc;
 
 .menu__description
 {
-    width: 100%;
+    width: 50%;
     height: auto;
 
     padding: 20px;
@@ -202,8 +216,8 @@ background-color: #efe5dc;
 
 .menu__img
 {
-    max-width: 50%;
-    max-height: auto;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -212,8 +226,8 @@ background-color: #efe5dc;
 
 .menu__img-piece
 {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
 
     border-radius: 20px;
 
@@ -314,13 +328,90 @@ background-color: #efe5dc;
     width: 75%;
 }
 
+.default
+{
+    width: 100%;
+    height: auto;
+    background-color: #604045;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.footer__main
+{   
+    margin-left: 20px;
+}
+
+.footer__contacts
+{
+    color: #efe5dc;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.footer__contacts-form
+{
+    text-decoration: none;
+    color: #efe5dc;
+
+}
+
+.footer__text
+{
+    color: #efe5dc;
+}
+
+.contacts__footer
+{
+    margin: 0;
+}
+
 @media (max-width: 1120px) {
-    .header :last-child {
+    .menu,
+    .header__main:last-child {
         display: flex;
         flex-basis: 100%;
         flex-wrap: wrap; 
         justify-content: center;
      }
 
-    
+     .nav__list,
+     .contacts__forms,
+     .contacts
+     {
+        font-size: .8em;
+
+     }
+
+     .menu__list
+     {
+        font-size: .8em;
+        padding: 0;
+
+     }
+
+     .menu__description
+     {
+        font-size: 1em;
+     }
+
+     .menu__list
+     {  
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         flex-wrap: nowrap;
+         margin-left: 10px;
+         padding: 0;
+         height: auto;
+     }
+
+     .menu__header
+     {
+         margin: 0;
+     }
+
+
 }
