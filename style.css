@@ -269,8 +269,8 @@ margin: 0;
 
 .cakes__image
 {
-    max-width: 23%;
-    max-height: auto;
+    width: 23%;
+    height: 100%;
 
     margin: 5px;
 
