@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,22 +44,23 @@
                 </div>
             </div>
             <div class="nav">
-                <nav class="nav__menu">
-                    <ul class="nav__list">
+                <nav class="nav__menu menu">
+                      <a href="#" class="menu-trigger">Меню</a>
+                    <ul class="nav__list menu__list">
                         <li class="nav__item">
-                            <a href="#" class="nav__button">Головна</a>
+                            <a class="menu__link" href="#" class="nav__button">Головна</a>
+                        </li>
+                        <li class="nav__item menu__item">
+                            <a class="menu__link" href="#" class="nav__button">Меню</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__button">Меню</a>
+                            <a class="menu__link" href="#" class="nav__button">Начинки</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__button">Начинки</a>
+                            <a class="menu__link" href="#" class="nav__button">Відгуки</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__button">Відгуки</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__button">Контакти</a>
+                            <a class="menu__link" href="#" class="nav__button">Контакти</a>
                         </li>
                     </ul>
                 </nav>
@@ -341,5 +342,27 @@
                 </div>
         </div>
 </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slick.css"/>
+<script type="text/javascript" src="slick.min.js"></script>
+<script type="text/javascript">
+$('.cakes__images').slick({});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.menu-trigger').click(function() {
+    $('nav ul').slideToggle(500);
+  });//end slide toggle
+  
+  $(window).resize(function() {     
+        if (  $(window).width() > 768 ) {           
+            $('nav ul').removeAttr('style');
+         }
+    });//end resize
+});//end ready
+     
+</script>
+<style type="text/css">
+</style>
 </body>
 </html>
