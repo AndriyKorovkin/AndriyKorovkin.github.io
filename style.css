@@ -195,26 +195,26 @@ nav a:hover {
     padding: 0;
 }
 
-.header__contacts-form
-{
+.tel,
+.header__contacts-form {
     text-decoration: none;
     color: #604045;
 }
 
-.nav__list
-{
-    position: relative;
+.footer__tel {
+    text-decoration: none;
+    color: #efe5dc;
+}
 
+.nav__list {
+    position: relative;
     width: 100%;
     max-width: 1000px;
-
     margin: 0;
     padding: 0;
     list-style: none;
-
     /*display: flex;*/
     justify-content: flex-end;
-
 }
 
 .nav__item
