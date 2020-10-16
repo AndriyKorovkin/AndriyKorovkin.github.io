@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VictoriaOverchenko_cake</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css">
 </head>
 <body>
     <div class="main">
@@ -13,296 +16,296 @@
             <div class="header__main">
                 <div class="header__name">
                     <h2 class="header__main-name">VictoriaOverchenko</h2>
-                    <h1 class="header__main-heading">Торти на замовлення</h1>   
+                    <h1 class="header__main-heading">Торти на замовлення</h1>
                 </div>
                 <div class="header__contacts">
                     <div class="contacts">
                         <div class="header__contacts-contacts">Наші контакти:</div>
                         <div class="contacts__forms">
-                            <div class="header__contacts-form"><a class="tel" href="tel:+380966232141"><img class="logo__img" src="./img/phone.png" alt="">+380966232141</a>
+                            <div class="header__contacts-form">
+                                <a class="tel" href="tel:+380966232141"><img class="logo__img" src="./img/phone.png" alt="">+380966232141</a>
                             </div>
                         </div>
                         <div class="contacts__forms">
-                             <div class="header__contacts-form"><a class="header__contacts-form" href="#"><img class="logo__img" src="./img/inst.png" alt="">Ми в Instagram</a></div>
+                            <div class="header__contacts-form"><a class="header__contacts-form" href="#"><img class="logo__img" src="./img/inst.png" alt="">Ми в Instagram</a></div>
                         </div>
                         <div class="contacts__forms">
                             <div class="header__contacts-form"><a class="header__contacts-form" href="https://www.facebook.com/%D0%A2%D0%BE%D1%80%D1%82%D0%B8-%D0%BA%D0%B0%D0%BF%D0%BA%D0%B5%D0%B9%D0%BA%D0%B8-%D0%BF%D0%B5%D1%87%D0%B8%D0%B2%D0%BE-%D0%BD%D0%B0-%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%9A%D0%B8%D1%97%D0%B2-1049311278514048/"><img class="logo__img" src="./img/fb.png" alt="">Ми у Facebook</a></div>
-                            </div>
-                            <div class="header__contacts-sity">м.Київ</div>
                         </div>
-                        <div class="header__logo"><img class="header__logo-img" src="./img/logo.png" alt="cake"></div>
+                        <div class="header__contacts-sity">м.Київ</div>
                     </div>
+                    <div class="header__logo"><img class="header__logo-img" src="./img/logo.png" alt="cake"></div>
                 </div>
             </div>
-            <div class="nav">
-                <nav class="nav__menu menu">
-                    <ul class="nav__list menu__list">
-                        <li class="nav__item">
-                            <a class="menu__link" href="#" class="nav__button">Головна</a>
-                        </li>
-                        <li class="nav__item menu__item">
-                            <a class="menu__link" href="#" class="nav__button">Меню</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="menu__link" href="#" class="nav__button">Начинки</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="menu__link" href="#" class="nav__button">Відгуки</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="menu__link" href="#" class="nav__button">Контакти</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="aboutUs">
-                <span>Раді вітати Вас на нашій  солодкій сторінці! 
-                    <p> Приготування кондитерських виробів для нас - це задоволення , адже в  кожен торт вкладена частка нашої душі і любові ) </p>
-                    <p>Ми постійно вдосконалюємось, розширюємо асортимент та добираємо найякісніші продукти , аби Ваше свято запам'яталося надовго! </p>
-                </span>
-            </div> 
-            <div class="menu">
-                <div class="menu__body">
-                    <h2 class="menu__header">Ми пропонуємо:</h2>
-                    <ul class="menu__list">
-                        <li class="menu__item">Торти</li>
-                        <li class="menu__item">Капкейки</li>
-                        <li class="menu__item">Імбирне печиво</li>
-                        <li class="menu__item">Зефір</li>
-                        <li class="menu__item">Кенді-бар</li>
-                    </ul>
-                </div>
-                <div class="menu__description">
-                    Пропонуємо ознайомитись із нашими пропозиціями , різноманітними смаками та  варіантами декорування солодощів , 
-                    щоб кожен із Вас зміг вибрати до душі) 
-                </div>
-                <div class="menu__img">
-                    <img class="menu__img-piece" src="./img/12.jpg" alt="piece of cake">
-                </div>
-            </div> 
-            <div class="cakes__main">
-                <h2 class="cakes__header">Торти</h2>
-                <h3 class="cakes">Дитячі</h3>
-                <div class="cakes__images">
-                    <img class="cakes__image" src="./img/childrens/1.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/2.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/3.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/4.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/5.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/6.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/7.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/8.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/9.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/10.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/11.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/12.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/13.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/14.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/15.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/16.jpg" alt="Cake for kids">
-                    <img class="cakes__image" src="./img/childrens/17.jpg" alt="Cake for kids">
-                </div>
-                <h3 class="cakes">На хрещення</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/birth/1.jpg" alt="Cake for birth">
-                    <img  class="cakes__image" src="./img/birth/2.jpg" alt="Cake for birth">
-                    <img  class="cakes__image" src="./img/birth/3.jpg" alt="Cake for birth">
-                    <img  class="cakes__image" src="./img/birth/4.jpg" alt="Cake for birth">
-                    <img  class="cakes__image" src="./img/birth/5.jpg" alt="Cake for birth">
-                </div>
-                <h3 class="cakes">Весільні</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/wedding/1.jpg" alt="Cake for wedding">
-                    <img  class="cakes__image" src="./img/wedding/2.jpg" alt="Cake for wedding">
-                    <img  class="cakes__image" src="./img/wedding/3.jpg" alt="Cake for wedding">
-                    <img  class="cakes__image" src="./img/wedding/4.jpg" alt="Cake for wedding">
-                    <img  class="cakes__image" src="./img/wedding/5.jpg" alt="Cake for wedding">
-                    <img  class="cakes__image" src="./img/wedding/6.jpg" alt="Cake for wedding">
-                </div>
-                <h3 class="cakes">Для жінок</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/womens/1.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/2.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/3.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/4.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/5.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/6.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/7.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/8.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/9.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/10.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/11.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/12.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/13.jpg" alt="Cake for womens">
-                    <img  class="cakes__image" src="./img/womens/14.jpg" alt="Cake for womens">
-                </div>
-                <h3 class="cakes">Для чоловіків</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/mens/1.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/2.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/3.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/4.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/5.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/6.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/7.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/8.jpg" alt="Cake for mens">
-                    <img  class="cakes__image" src="./img/mens/9.jpg" alt="Cake for mens">
-                </div>
-                <h3 class="cakes">Корпоративні</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/corp/1.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/2.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/3.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/4.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/5.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/6.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/7.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/8.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/9.jpg" alt="Corporate cake">
-                    <img  class="cakes__image" src="./img/corp/10.jpg" alt="Corporate cake">
-                </div>
-                <h3 class="cakes">Капкейки</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/cup/1.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/2.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/3.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/4.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/5.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/6.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/7.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/8.jpg" alt="Cup Cakes">
-                    <img  class="cakes__image" src="./img/cup/9.jpg" alt="Cup Cakes">
-                </div>
-                <h3 class="cakes">Зефір</h3>
-                <div class="cakes__images">
-                    <img  class="cakes__image" src="./img/marshmallows/1.jpg" alt="marshmallows">
-                    <img  class="cakes__image" src="./img/marshmallows/2.jpg" alt="marshmallows">
-                    <img  class="cakes__image" src="./img/marshmallows/3.jpg" alt="marshmallows">
-                </div>
-
-            </div>
-            <h2 class="menu__price-title">Меню</h2>
-            <div class="menu__price">
-                <div class="menu__price-main menu__price-left">
-                    <div>
-                        <h3 class="title__price-description">Лісова ягода</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Ванільні вологі бисквіти, вершковий крем, начинка із ягід</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Молочна дівчинка</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Білі , карамельні або шоколадні тонкі коржі на сгущеному молоці,  йогуртовий крем ,  фрукти/ягоди/на вибір</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Пломбір</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Ванільні шифонові бисквіти, пропитка морозивом, крем Пломбір</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Шварцвальд</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Шоколадні коржі, вишневе компоте, вишня та вершковий крем</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Снікерс</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Шоколадні коржі, домашня  солона карамель та смажений арахіс, крем сир</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Червоний оксамит</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Червоні  соковиті коржі на какао, крем сир на вершках, ягідний шар ( за бажанням)</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Популярний</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Чередування білих та шоколадних вологих бисквітів, фруктова/ягідна начинка, вершково/йогуртовий крем</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Медовик</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Тонкі медові коржі, традиційний сметанний крем</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="menu__price-main menu__price-right">
-                    <div>
-                        <h3 class="title__price-description">Наполеон</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Традиційні тонкі листкові коржі, не менше 14 шт, заварний крем на вершковому маслі та вершках</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Райдужний торт</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Торт із соковитих бисквітних коржів кольорів веселки із йогуртовим кремом</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Шоколадно-кавовий</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Шоколадні насичені бисквіти, просочені натуральною кавою, шоколадний ганаш із горіхами</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Морквяний</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Морквяний торт із вологими пряними коржами з морквою , апельсином, грецьким горіхом та спеціями, крем на основі вершкового сиру</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Капучино-вишня</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Вологі бисквіти, просочені натуральною кавою з вершками, вишневе конфі, шар з молочного  шоколаду</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Фантазія</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Соковиті макові бисквіти, хрусткий білковий  шар з горіхами та шоколадом, ягідний шар, крем сир на вершках</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Шоколад-апельсин</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Вологі шоколадні коржі,  начинка конфі  із шматочками апельсина, сирний мус</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="title__price-description">Прага</h3>
-                        <div class="menu__price-description">
-                            <div class="value__price-description">Насичені вологі  шоколадні бисквіти, ромова пропитка, шоколадний крем на вершковому маслі</div>
-                            <div class="menu__price-value">400 грн/кг</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>  
         </div>
+        <div class="nav">
+            <nav class="nav__menu menu">
+                <ul class="nav__list menu__list">
+                    <li class="nav__item">
+                        <a class="menu__link" href="#" class="nav__button">Головна</a>
+                    </li>
+                    <li class="nav__item menu__item">
+                        <a class="menu__link" href="#" class="nav__button">Меню</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="menu__link" href="#" class="nav__button">Начинки</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="menu__link" href="#" class="nav__button">Відгуки</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="menu__link" href="#" class="nav__button">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="aboutUs">
+            <p>Раді вітати Вас на нашій  солодкій сторінці! </p>
+            <p> Приготування кондитерських виробів для нас - це задоволення , адже в  кожен торт вкладена частка нашої душі і любові ) </p>
+            <p>Ми постійно вдосконалюємось, розширюємо асортимент та добираємо найякісніші продукти , аби Ваше свято запам'яталося надовго! </p>
+        </div>
+        <div class="menu">
+            <div class="menu__body">
+                <h2 class="menu__header">Ми пропонуємо:</h2>
+                <ul class="menu__list">
+                    <li class="menu__item">Торти</li>
+                    <li class="menu__item">Капкейки</li>
+                    <li class="menu__item">Імбирне печиво</li>
+                    <li class="menu__item">Зефір</li>
+                    <li class="menu__item">Кенді-бар</li>
+                </ul>
+            </div>
+            <div class="menu__description">
+                Пропонуємо ознайомитись із нашими пропозиціями , різноманітними смаками та  варіантами декорування солодощів ,
+                щоб кожен із Вас зміг вибрати до душі)
+            </div>
+            <div class="menu__img">
+                <img class="menu__img-piece" src="./img/12.jpg" alt="piece of cake">
+            </div>
+        </div>
+        <div class="cakes__main">
+            <h2 class="cakes__header">Торти</h2>
+            <h3 class="cakes">Дитячі</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/childrens/1.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/2.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/3.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/4.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/5.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/6.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/7.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/8.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/9.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/10.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/11.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/12.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/13.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/14.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/15.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/16.jpg" alt="Cake for kids">
+                <img class="cakes__image" src="./img/childrens/17.jpg" alt="Cake for kids">
+            </div>
+            <h3 class="cakes">На хрещення</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/birth/1.jpg" alt="Cake for birth">
+                <img class="cakes__image" src="./img/birth/2.jpg" alt="Cake for birth">
+                <img class="cakes__image" src="./img/birth/3.jpg" alt="Cake for birth">
+                <img class="cakes__image" src="./img/birth/4.jpg" alt="Cake for birth">
+                <img class="cakes__image" src="./img/birth/5.jpg" alt="Cake for birth">
+            </div>
+            <h3 class="cakes">Весільні</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/wedding/1.jpg" alt="Cake for wedding">
+                <img class="cakes__image" src="./img/wedding/2.jpg" alt="Cake for wedding">
+                <img class="cakes__image" src="./img/wedding/3.jpg" alt="Cake for wedding">
+                <img class="cakes__image" src="./img/wedding/4.jpg" alt="Cake for wedding">
+                <img class="cakes__image" src="./img/wedding/5.jpg" alt="Cake for wedding">
+                <img class="cakes__image" src="./img/wedding/6.jpg" alt="Cake for wedding">
+            </div>
+            <h3 class="cakes">Для жінок</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/womens/1.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/2.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/3.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/4.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/5.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/6.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/7.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/8.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/9.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/10.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/11.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/12.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/13.jpg" alt="Cake for womens">
+                <img class="cakes__image" src="./img/womens/14.jpg" alt="Cake for womens">
+            </div>
+            <h3 class="cakes">Для чоловіків</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/mens/1.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/2.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/3.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/4.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/5.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/6.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/7.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/8.jpg" alt="Cake for mens">
+                <img class="cakes__image" src="./img/mens/9.jpg" alt="Cake for mens">
+            </div>
+            <h3 class="cakes">Корпоративні</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/corp/1.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/2.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/3.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/4.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/5.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/6.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/7.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/8.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/9.jpg" alt="Corporate cake">
+                <img class="cakes__image" src="./img/corp/10.jpg" alt="Corporate cake">
+            </div>
+            <h3 class="cakes">Капкейки</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/cup/1.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/2.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/3.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/4.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/5.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/6.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/7.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/8.jpg" alt="Cup Cakes">
+                <img class="cakes__image" src="./img/cup/9.jpg" alt="Cup Cakes">
+            </div>
+            <h3 class="cakes">Зефір</h3>
+            <div class="cakes__images">
+                <img class="cakes__image" src="./img/marshmallows/1.jpg" alt="marshmallows">
+                <img class="cakes__image" src="./img/marshmallows/2.jpg" alt="marshmallows">
+                <img class="cakes__image" src="./img/marshmallows/3.jpg" alt="marshmallows">
+            </div>
+
+        </div>
+        <h2 class="menu__price-title">Меню</h2>
+        <div class="menu__price">
+            <div class="menu__price-main menu__price-left">
+                <div>
+                    <h3 class="title__price-description">Лісова ягода</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Ванільні вологі бисквіти, вершковий крем, начинка із ягід</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Молочна дівчинка</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Білі , карамельні або шоколадні тонкі коржі на сгущеному молоці,  йогуртовий крем ,  фрукти/ягоди/на вибір</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Пломбір</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Ванільні шифонові бисквіти, пропитка морозивом, крем Пломбір</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Шварцвальд</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Шоколадні коржі, вишневе компоте, вишня та вершковий крем</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Снікерс</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Шоколадні коржі, домашня  солона карамель та смажений арахіс, крем сир</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Червоний оксамит</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Червоні  соковиті коржі на какао, крем сир на вершках, ягідний шар ( за бажанням)</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Популярний</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Чередування білих та шоколадних вологих бисквітів, фруктова/ягідна начинка, вершково/йогуртовий крем</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Медовик</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Тонкі медові коржі, традиційний сметанний крем</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="menu__price-main menu__price-right">
+                <div>
+                    <h3 class="title__price-description">Наполеон</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Традиційні тонкі листкові коржі, не менше 14 шт, заварний крем на вершковому маслі та вершках</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Райдужний торт</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Торт із соковитих бисквітних коржів кольорів веселки із йогуртовим кремом</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Шоколадно-кавовий</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Шоколадні насичені бисквіти, просочені натуральною кавою, шоколадний ганаш із горіхами</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Морквяний</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Морквяний торт із вологими пряними коржами з морквою , апельсином, грецьким горіхом та спеціями, крем на основі вершкового сиру</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Капучино-вишня</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Вологі бисквіти, просочені натуральною кавою з вершками, вишневе конфі, шар з молочного  шоколаду</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Фантазія</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Соковиті макові бисквіти, хрусткий білковий  шар з горіхами та шоколадом, ягідний шар, крем сир на вершках</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Шоколад-апельсин</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Вологі шоколадні коржі,  начинка конфі  із шматочками апельсина, сирний мус</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title__price-description">Прага</h3>
+                    <div class="menu__price-description">
+                        <div class="value__price-description">Насичені вологі  шоколадні бисквіти, ромова пропитка, шоколадний крем на вершковому маслі</div>
+                        <div class="menu__price-value">400 грн/кг</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     </div>
     <footer class="default">
         <div class="footer__main">
@@ -321,27 +324,23 @@
                 </div>
                 <div class="contacts__forms contacts__footer">
                     <div class="footer__contacts-form"><a class="footer__contacts-form" href="https://www.facebook.com/%D0%A2%D0%BE%D1%80%D1%82%D0%B8-%D0%BA%D0%B0%D0%BF%D0%BA%D0%B5%D0%B9%D0%BA%D0%B8-%D0%BF%D0%B5%D1%87%D0%B8%D0%B2%D0%BE-%D0%BD%D0%B0-%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%9A%D0%B8%D1%97%D0%B2-1049311278514048/"><img class="logo__img" src="./img/fb.png" alt="faceboock">Ми у Facebook</a></div>
-                    </div>
-                    <div class="footer__contacts-form">м.Київ</div>
                 </div>
+                <div class="footer__contacts-form">м.Київ</div>
+            </div>
         </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="slick.css"/>
-<script type="text/javascript" src="slick.min.js"></script>
-<script>
-$('.cakes__images').slick({});
-</script>
-<script>
-$(document).ready(function() {
-  $('.menu-trigger').click(function() {
-    $('nav ul').slideToggle(500);
-  });//end slide toggle
-  
-});//end ready
-     
-</script>
-<style type="text/css">
-</style>
+    </footer>
+    <script>
+        $('.cakes__images').slick({});
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menu-trigger').click(function () {
+                $('nav ul').slideToggle(500);
+            });//end slide toggle
+
+        });//end ready
+    </script>
+    <style type="text/css">
+    </style>
 </body>
 </html>
