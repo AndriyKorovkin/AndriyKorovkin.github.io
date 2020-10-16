@@ -1,11 +1,11 @@
 .slick-slider {
-    max-width: 640px;
+    max-width: 540px;
     display: table;
     margin: 0 auto;
     position: relative;
 }
 .slick-slider img {
-    width: 640px;
+    width: 500px;
     height: auto;
 }
 .slick-prev, .slick-next {
@@ -329,7 +329,7 @@ nav a:hover {
    display: flex;
    flex-direction: row;
 
-   flex: 1 1 25%;
+   flex: 1 1 15%;
    flex-wrap: wrap;
 
    justify-content: center;
@@ -338,7 +338,7 @@ nav a:hover {
 
 .cakes__image
 {
-    width: 23%;
+    width: 15%;
     height: 100%;
 
     margin: 5px;
